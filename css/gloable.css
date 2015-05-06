@@ -18,7 +18,7 @@ label,summary{cursor:default;}
 a,button{cursor:pointer;}
 h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
 del,ins,u,s,a,a:hover{text-decoration:none;}
-body,textarea,input,button,select,keygen,legend{font:15px/1.5 "Microsoft YaHei",simsun,tahoma,arial,宋体,sans-serif;color:#333;outline:0;}
+body,textarea,input,button,select,keygen,legend{font:14px/1.5 "Microsoft YaHei",simsun,tahoma,arial,宋体,sans-serif;color:#333;outline:0;}
 body{background:#fff;}
 a,a:hover{color:#333;}
 
@@ -79,6 +79,7 @@ a,a:hover{color:#333;}
 .g-hd{
 	height: 80px;
 	background: url(../images/header_bg.png) repeat-x;
+	overflow: hidden;
 }
 
 /* 导航 */
@@ -144,6 +145,34 @@ a,a:hover{color:#333;}
  * 底部样式
  */
 .g-ft{
-	
+	height: 47px;
+	line-height: 47px;
+	background-color: #313640;
+	color: #ffffff;
+	font-size: 12px;
 }
-
+.g-ft a{
+	color: #ffffff;
+	font-size: 12px;
+}
+.g-ft a.kefu{
+	display: inline-block;
+	width: 103px;
+	height: 29px;
+	background-position: -43px -3px;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+.g-ft .weixin .wx-icon{
+	display: inline-block;
+	width: 30px;
+	height: 29px;
+	background-position: -4px -100px;
+	margin-top: 9px;
+}
+.g-ft .copy{
+	line-height: normal;
+	margin-top: 7px;
+	margin-right: 20px;
+	text-align: right;
+}
