@@ -1,0 +1,146 @@
+/**
+ * 职位列表样式
+ */
+
+/* 侧边栏筛选 */
+.sidebar{
+	width: 180px
+}
+#selected{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f5f5f5;
+}
+#selected div{
+	color: #393d3f;
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+#selected li{
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #2997ab;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: #fff;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 13px;
+    padding-bottom: 0;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 0;
+    white-space: nowrap;
+}
+#selected li span{
+	float: left;
+    font-size: 12px;
+}
+#selected li span.sel_remove{
+	background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(../../images/xs.png);
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    cursor: pointer;
+    height: 9px;
+    margin-bottom: 0;
+    margin-left: 12px;
+    margin-right: 0;
+    margin-top: 8px;
+    width: 9px;
+}
+
+#options dl, #options dt {
+    margin-bottom: 10px;
+}
+#options dt{
+	color: #393d3f;
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+}
+#options dt em{
+	border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 0;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: transparent;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: dashed;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 5px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: transparent;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: dashed;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 5px;
+    border-top-color: #393d3f;
+    border-top-style: solid;
+    border-top-width: 6px;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    margin-left: 10px;
+    margin-top: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: ease;
+    width: 0;
+}
+#options dt em.transform{
+	transform: rotate(-90deg);
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: ease;
+}
+#options dd div{
+	color: #555;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    transition-delay: 0s, 0s;
+    transition-duration: 0.2s, 0.1s;
+    transition-property: background-color, color;
+    transition-timing-function: ease-out, ease-out;
+}
+#options dd div:hover {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #2997ab;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    color: #fff;
+}
+
+/* 职位列表 */
+.content{
+	width: 855px
+}
+.job-search{
+	background: 
+}

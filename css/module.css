@@ -5,6 +5,7 @@
 	height: 80px;
 	background: url(../images/header_bg.png) repeat-x;
 	overflow: hidden;
+	box-shadow: 0 0 3px #dfdfdf;
 }
 
 /* 导航 */
