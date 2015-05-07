@@ -5,15 +5,197 @@
 	background: url(../../images/silder/banner2.jpg) no-repeat center;
 	height: 459px;
 }
+.search{
+    left: 89px;
+    position: absolute;
+    top: -267px;
+    z-index: 999
+}
+.search .search-box{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url(../../images/search_bg.png);
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    height: 47px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    position: relative;
+    width: 853px;
+}
+.search .search-type{
+    background-color: #fff;
+    cursor: pointer;
+    left: 4px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    position: absolute;
+    width: 138px;
+}
+.search .search-type li{
+    font-size: 16px;
+    height: 23px;
+    line-height: 24px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 12px;
+}
+.search .search-type li.selected{
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: none;
+    border-bottom-width: 0;
+    border-top-color: -moz-use-text-color;
+    border-top-style: none;
+    border-top-width: 0;
+    height: 23px;
+}
+.search .search-box .arrow{
+    border-bottom-color: transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 0;
+    border-left-color-ltr-source: physical;
+    border-left-color-rtl-source: physical;
+    border-left-color-value: transparent;
+    border-left-style-ltr-source: physical;
+    border-left-style-rtl-source: physical;
+    border-left-style-value: dashed;
+    border-left-width-ltr-source: physical;
+    border-left-width-rtl-source: physical;
+    border-left-width-value: 5px;
+    border-right-color-ltr-source: physical;
+    border-right-color-rtl-source: physical;
+    border-right-color-value: transparent;
+    border-right-style-ltr-source: physical;
+    border-right-style-rtl-source: physical;
+    border-right-style-value: dashed;
+    border-right-width-ltr-source: physical;
+    border-right-width-rtl-source: physical;
+    border-right-width-value: 5px;
+    border-top-color: #2997ab;
+    border-top-style: solid;
+    border-top-width: 5px;
+    font-size: 0;
+    height: 0;
+    left: 100px;
+    line-height: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    position: absolute;
+    top: 23px;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-property: all;
+    transition-timing-function: ease;
+    width: 0;
+}
+.search .search-input{
+    border:none;
+    float: left;
+    font-size: 16px;
+    height: 23px;
+    line-height: 23px;
+    margin-bottom: 0;
+    margin-left: 143px;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 8px;
+    padding-top: 12px;
+    width: 547px;
+}
+.search .search-btn{
+    background-color: rgba(0, 0, 0, 0);
+    border:none;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 18px;
+    height: 47px;
+    outline-color: -moz-use-text-color;
+    outline-style: none;
+    outline-width: medium;
+    width: 142px;
+}
+.search .search-hot{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 18px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 14px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.search .search-hot dt, .search .search-hot dd {
+    float: left;
+}
+.search .search-hot dt {
+    font-size: 14px;
+    width: 70px;
+}
+.search .search-hot dd {
+    margin-right: 20px;
+}
+.search .search-hot dd a {
+    color: #fff;
+}
+.mask{
+    display: inline-block;
+    position: absolute;
+    background: #000;
+    opacity: 0.5;
+    width: 910px;
+    height: 137px;
+    top: -291px;
+    left: 64px;
+}
 
 /* 为什么选择我们 */
+.why-sel{
+    background: url(../../images/whysel_bg.png) repeat-x 0px bottom;
+    height: 438px;
+}
 .why-sel .tit{
     background-image: url(../../images/bg_xian.png);
-    background-position: center 90px;
+    background-position: center 65px;
     background-repeat: no-repeat;
     color: #2997ab;
     font-size: 30px;
-    padding-bottom: 50px;
-    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 15px;
+    text-align: center;
+}
+.why-sel .advantage li{
+    width: 336px;
+    height: 170px;
+    float: left;
+    padding-top: 130px;
+}
+.why-sel .advantage li.ad-bg1{
+    background: url(../../images/ad_bg1.png) no-repeat;
+}
+.why-sel .advantage li.ad-bg2{
+    background: url(../../images/ad_bg2.png) no-repeat;
+}
+.why-sel .advantage li.ad-bg3{
+    background: url(../../images/ad_bg3.png) no-repeat;
+}
+.why-sel .advantage li .ad-tit{
+    color: #2997ab;
+    font-size: 18px;
+    margin-top: 15px;
+    text-align: center;
+}
+.why-sel .advantage li .ad-info{
+    line-height: 24px;
+    margin-top: 13px;
     text-align: center;
 }
