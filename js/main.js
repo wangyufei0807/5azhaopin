@@ -14,7 +14,7 @@ requirejs.config({
 
 require(['jquery','flexslider'], function ($,flexslider) {
     $(document).ready(function () {
-        alert(11);
+        //alert(11);
     })
 });
 

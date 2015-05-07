@@ -1,0 +1,104 @@
+/**
+ * 头部公用模块
+ */
+.g-hd{
+	height: 80px;
+	background: url(../images/header_bg.png) repeat-x;
+	overflow: hidden;
+}
+
+/* 导航 */
+.g-hd .nav{
+	margin-top: 25px;
+	margin-left: 25px
+}
+.g-hd .nav li{
+	float: left;
+}
+.g-hd .nav li a{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 37px;
+	font-size: 18px;
+	color: #282828;
+}
+
+/* 购物车 */
+.g-hd .shopping-cart{
+	display: inline-block;
+	width: 23px;
+	height: 21px;
+	background: url(../images/icon.png) no-repeat -4px -4px; 
+	cursor: pointer;
+	position: relative;
+	margin-right: 25px;
+}
+.g-hd .shopping-cart em{
+	display: inline-block;
+	width: 13px;
+	height: 13px;
+	background: #ed0000;
+	border-radius: 50%;
+	font-size: 10px;
+	line-height: 13px;
+	text-align: center;
+	color: #ffffff;
+	position: absolute;
+	top: -3px;
+	left: 18px;
+}
+
+/* 登录注册 */
+.g-hd .login-bar{
+	margin-top: 25px;
+}
+.g-hd .login-bar .login-link i.person-icon{
+	display: inline-block;
+	width: 22px;
+	height: 20px;
+	background-position: -4px -37px;
+}
+.g-hd .login-bar .login-link i.company-icon{
+	display: inline-block;
+	width: 25px;
+	height: 22px;
+	background-position: -4px -66px;
+}
+
+/**
+ * 底部公用模块
+ */
+.g-ft{
+	height: 47px;
+	line-height: 47px;
+	background-color: #313640;
+	color: #ffffff;
+	font-size: 12px;
+}
+.g-ft a{
+	color: #ffffff;
+	font-size: 12px;
+}
+.g-ft a.kefu{
+	display: inline-block;
+	width: 103px;
+	height: 29px;
+	background-position: -43px -3px;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+.g-ft .weixin .wx-icon{
+	background-position: -4px -100px;
+    display: inline-block;
+    float: left;
+    height: 29px;
+    margin-top: 9px;
+    width: 30px;
+}
+.g-ft .copy{
+	line-height: normal;
+	margin-top: 7px;
+	margin-right: 20px;
+	text-align: right;
+}

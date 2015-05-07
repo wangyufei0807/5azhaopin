@@ -1,0 +1,19 @@
+/**
+ * 首页业务样式
+ */
+.banner{
+	background: url(../../images/silder/banner2.jpg) no-repeat center;
+	height: 459px;
+}
+
+/* 为什么选择我们 */
+.why-sel .tit{
+    background-image: url(../../images/bg_xian.png);
+    background-position: center 90px;
+    background-repeat: no-repeat;
+    color: #2997ab;
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    text-align: center;
+}
